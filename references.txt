@@ -1,10 +1,10 @@
 http://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html#netflix-eureka-client-starter
 https://github.com/Netflix/eureka/wiki/Eureka-REST-operations
-https://jmnarloch.wordpress.com/2015/09/02/spring-cloud-fixing-eureka-application-status/
 
 Heart Beat propagation to Eureka server:
 -----------------------------------------
 Client Status is pushed by the eureka clients to the eureka server by invoking the server's rest endpoint.
-By Default, client checks only for heart beat for propagating the staus to the server
+By Default, client checks only for heart beat (HealthCheckHandler(s)) for propagating the staus to the server. You can implement custom hHealthCheckHandler(s) to suit your own requirement. Otherwise default HealthCheckHandler will be used.
+https://jmnarloch.wordpress.com/2015/09/02/spring-cloud-fixing-eureka-application-status/
 If you want the client to check for actuator health instead of heartbeat, use eureka.client.healthcheck.enabled=true
 
