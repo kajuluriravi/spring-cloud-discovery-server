@@ -1,4 +1,4 @@
-http://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html#netflix-eureka-client-starter
+http://cloud.spring.io/spring-cloud-netflix/single/spring-cloud-netflix.html
 https://github.com/Netflix/eureka/wiki/Eureka-REST-operations
 
 Heart Beat propagation to Eureka server:
