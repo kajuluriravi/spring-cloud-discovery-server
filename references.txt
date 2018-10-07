@@ -8,3 +8,6 @@ By Default, client checks only for heart beat (HealthCheckHandler(s)) for propag
 https://jmnarloch.wordpress.com/2015/09/02/spring-cloud-fixing-eureka-application-status/
 If you want the client to check for actuator health instead of heartbeat, use eureka.client.healthcheck.enabled=true
 
+Types Of Eureka clients:
+-----------------------
+Netflix EurekaClient vs SpringCloud DiscoveryClient vs Ribbon
