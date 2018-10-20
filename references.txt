@@ -11,3 +11,4 @@ If you want the client to check for actuator health instead of heartbeat, use eu
 Types Of Eureka clients:
 -----------------------
 Netflix EurekaClient vs SpringCloud DiscoveryClient vs Ribbon
+https://howtodoinjava.com/spring-cloud/spring-cloud-service-discovery-netflix-eureka/
